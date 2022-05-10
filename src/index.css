@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root, [data-theme] {
+  background-color: #333 ;
+  color: hsla(var(--bc) / var(--tw-text-opacity, 1));
+} */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
