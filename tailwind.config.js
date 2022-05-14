@@ -1,6 +1,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: [],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/images/bg.png')",
+        // "makeAppointment-pattern": "url('/src/assets/images/appointment.png')",
+      },
+    },
+  },
   daisyui: {
     themes: [
       {
